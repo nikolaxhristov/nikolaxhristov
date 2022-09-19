@@ -1,12 +1,13 @@
-## <img src="https://astro.build/assets/press/logomark-dark.svg" width="16" /> Astro
-
-| [astro-compress] <br /> Compress your files automatically. | [astro-critters] <br /> Inline your critical CSS. | [astro-img] <br /> Replacement for the default img component. | [astro-short-urls] <br /> Shorten URLs.                       |
-| :--------------------------------------------------------- | :------------------------------------------------ | :------------------------------------------------------------ | :------------------------------------------------------------ |
-| [astro-convert] <br /> Convert your images.                | [astro-dead-links] <br /> Find you dead links.    | [astro-networks] <br /> An inovative router.                  | [astro-starter-template] <br /> Opinionated starter template. |
+| <img src="https://astro.build/assets/press/logomark-dark.svg" width="16" style="vertical-align: middle" /> Astro |                                                   |                                                               |                                                   |
+| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------- |
+| [astro-compress] <br /> Compress your files automatically.                                                       | [astro-critters] <br /> Inline your critical CSS. | [astro-img] <br /> Replacement for the default img component. | [astro-short-urls] <br /> Shorten URLs.           |
+| [astro-convert] <br /> Convert your images.                                                                      | [astro-dead-links] <br /> Find you dead links.    | [astro-networks] <br /> An inovative router.                  | [astro-starter-template] <br /> Starter template. |
 
 ## <img src="https://obsproject.com/favicon-16x16.png" width="16" /> OBS
 
--   [obs] - My OBS Setup.
+| [obs] <br /> My OBS Setup. |     |
+| -------------------------- | --- |
+|                            |     |
 
 ## <img src="https://raw.githubusercontent.com/jglovier/dotfiles-logo/master/dotfiles-logo-icon.png" width="16" /> Dotfiles
 

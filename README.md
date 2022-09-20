@@ -8,7 +8,7 @@
 
 | **[camera-tools] <br /> Customize your camera video feed with CSS.** | **[spotify-now-playing] <br /> Spotify Now Playing widget.** |
 | :------------------------------------------------------------------- | :----------------------------------------------------------- |
-| **[OBS] <br /> My OBS Setup.**                                       |                                                              |
+| **[OBS] <br /> My OBS Setup.**                                       | **[spotify-widget] <br /> Spotify Now Playing widget, but working.** |
 
 ## <img src="https://raw.githubusercontent.com/jglovier/dotfiles-logo/master/dotfiles-logo-icon.png" width="16" /> Dotfiles
 
@@ -31,4 +31,6 @@
 [obs project]: https://github.com/obsproject/obs-studio
 [dot]: https://github.com/NikolaRHristov/dot
 [camera-tools]: https://github.com/NikolaRHristov/camera-tools
+[spotify-now-playing]: https://github.com/NikolaRHristov/spotify-now-playing
+[spotify-widget]: https://github.com/NikolaRHristov/spotify-widget
 [obs]: https://github.com/NikolaRHristov/obs

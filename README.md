@@ -1,10 +1,10 @@
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://astro.build/assets/press/logomark-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://astro.build/assets/press/logomark-light.svg"><img width="24" alt="Astro" src="https://astro.build/assets/press/logomark-light.svg"></picture> [Astro]
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://astro.build/assets/press/logomark-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://astro.build/assets/press/logomark-light.svg"><img width="24" alt="Astro" src="https://astro.build/assets/press/logomark-light.svg"></picture> Astro
 
 | **[astro-compress] <br /> Compress your files automatically.**                        | **[astro-critters] <br /> Inline your critical CSS.** | **[astro-img] <br /> Replacement for the default img component.** | **[astro-short-urls] <br /> Shorten URLs.**                       |
 | :------------------------------------------------------------------------------------ | :---------------------------------------------------- | :---------------------------------------------------------------- | :---------------------------------------------------------------- |
 | **[astro-convert] <br /> Convert your images, files and JavaScript to a new format.** | **[astro-dead-links] <br /> Find you dead links.**    | **[astro-networks] <br /> An inovative router.**                  | **[astro-starter-template] <br /> Opinionated starter template.** |
 
-## <img src="https://obsproject.com/favicon-16x16.png" width="16" /> [OBS Project]
+## <img src="https://obsproject.com/favicon-16x16.png" width="24" /> [OBS Project]
 
 | **[camera-tools] <br /> Customize your camera video feed with CSS.** | **[spotify-now-playing] <br /> Spotify Now Playing widget.** |
 | :------------------------------------------------------------------- | :----------------------------------------------------------- |

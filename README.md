@@ -6,7 +6,7 @@
 
 ## <img src="https://obsproject.com/favicon-16x16.png" width="16" /> [OBS Project]
 
-| **[camera-tools] <br /> Customize your camera video feed with CSS.** | **[spotify-now-playing] <br /> Spotify Now Playing widget.** |
+| **[camera-tools] <br /> Customize your video feed with CSS.** | **[spotify-now-playing] <br /> Spotify Now Playing widget.** |
 | :------------------------------------------------------------------- | :----------------------------------------------------------- |
 | **[OBS] <br /> My OBS Setup.**                                       | **[spotify-widget] <br /> Spotify Now Playing widget, but working.** |
 

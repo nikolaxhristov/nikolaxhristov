@@ -12,7 +12,7 @@
 
 ---
 
-## <img src="https://raw.githubusercontent.com/jglovier/dotfiles-logo/master/dotfiles-logo-icon.png" width="16" /> NPM
+## <img src="https://raw.githubusercontent.com/npm/logos/master/npm%20square/n.svg" width="32" /> NPM
 
 | **[npm-config] <br /> Build config.**   |
 | :-------------------------------------- |

@@ -4,7 +4,7 @@
 | :------------------------------------------------------------------------------------ | :---------------------------------------------------- | :---------------------------------------------------------------- | :---------------------------------------------------------------- |
 | **[astro-convert] <br /> Convert your images, files and JavaScript to a new format.** | **[astro-dead-links] <br /> Find you dead links.**    | **[astro-networks] <br /> An inovative router.**                  | **[astro-starter-template] <br /> Opinionated starter template.** |
 
-## <img src="https://raw.githubusercontent.com/NikolaRHristov/NikolaRHristov/main/.github/img/obs-logo.svg" width="38" height="38" /> OBS Project
+## <img src="https://raw.githubusercontent.com/NikolaRHristov/NikolaRHristov/main/.github/img/obs-logo.svg" width="24" height="24" /> OBS Project
 
 | **[camera-tools] <br /> Customize your video feed with CSS.** | **[spotify-now-playing] <br /> Spotify Now Playing widget.**         |
 | :------------------------------------------------------------ | :------------------------------------------------------------------- |

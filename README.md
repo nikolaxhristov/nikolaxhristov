@@ -27,7 +27,7 @@
 
 ---
 
-<a href="https://app.daily.dev/NikolaHristov"><img src="https://github.com/NikolaRHristov/NikolaRHristov/blob/main/devcard.svg?rev=hs2VsNVqDK" width="400" alt="Nikola's Dev Card"/></a>
+<a href="https://app.daily.dev/NikolaHristov"><img src="https://github.com/nikolarhristov/NikolaRHristov/blob/main/devcard.svg?rev=hs2VsNVqDK" width="400" alt="Nikola's Dev Card"/></a>
 
 [astro]: https://github.com/withastro/astro
 [astro-compress]: https://github.com/Lightrix/astro-compress
@@ -39,10 +39,10 @@
 [astro-short-urls]: https://github.com/Lightrix/astro-short-urls
 [astro-starter-template]: https://github.com/Lightrix/astro-starter-template
 [obs project]: https://github.com/obsproject/obs-studio
-[dot]: https://github.com/NikolaRHristov/dot
-[camera-tools]: https://github.com/NikolaRHristov/camera-tools
-[spotify-now-playing]: https://github.com/NikolaRHristov/spotify-now-playing
-[spotify-widget]: https://github.com/NikolaRHristov/spotify-widget
-[obs]: https://github.com/NikolaRHristov/obs
+[dot]: https://github.com/nikolarhristov/dot
+[camera-tools]: https://github.com/nikolarhristov/camera-tools
+[spotify-now-playing]: https://github.com/nikolarhristov/spotify-now-playing
+[spotify-widget]: https://github.com/nikolarhristov/spotify-widget
+[obs]: https://github.com/nikolarhristov/obs
 [npm-config]: https://github.com/Lightrix/npm/tree/main/config
 [npm-scripts]: https://github.com/Lightrix/npm/tree/main/scripts

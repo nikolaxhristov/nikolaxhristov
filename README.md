@@ -1,4 +1,4 @@
-<kbd><a href="https://holopin.io/@nikola"><picture><img alt="@nikola's Holopin board" src="https://holopin.io/api/user/board?user=nikola"></picture></a></kbd>
+<kbd><a href="https://holopin.io/@nikola"><picture><img alt="@nikola's Holopin board" src="https://holopin.io/api/user/board?user=nikola" /></picture></a></kbd>
 
 ---
 

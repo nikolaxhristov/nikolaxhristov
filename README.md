@@ -1,4 +1,6 @@
-[![@nikola's Holopin board](https://holopin.io/api/user/board?user=nikola)](https://holopin.io/@nikola)
+<a href="https://holopin.io/@nikola" target="_blank"></a><picture><img alt="@nikola's Holopin board" style="border-radius:24px; overflow: hidden;" src="https://holopin.io/api/user/board?user=nikola"></picture></a>
+
+---
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="https://astro.build/assets/press/logomark-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://astro.build/assets/press/logomark-light.svg"><img width="25" alt="Astro" src="https://astro.build/assets/press/logomark-light.svg"></picture> Astro
 
@@ -6,7 +8,9 @@
 | :------------------------------------------------------------------------------------ | :---------------------------------------------------- | :---------------------------------------------------------------- | :---------------------------------------------------------------- |
 | **[astro-convert] <br /> Convert your images, files and JavaScript to a new format.** | **[astro-dead-links] <br /> Find you dead links.**    | **[astro-networks] <br /> An inovative router.**                  | **[astro-starter-template] <br /> Opinionated starter template.** |
 
-## <img src="https://raw.githubusercontent.com/NikolaRHristov/NikolaRHristov/main/.github/img/obs-logo.svg" width="24" height="24" /> OBS Project
+---
+
+## <img src="https://raw.githubusercontent.com/nikolarhristov/nikolarhristov/main/.github/img/obs-logo.svg" width="24" height="24" /> OBS Project
 
 | **[camera-tools] <br /> Customize your video feed with CSS.** | **[spotify-now-playing] <br /> Spotify Now Playing widget.**         |
 | :------------------------------------------------------------ | :------------------------------------------------------------------- |
@@ -29,7 +33,7 @@
 
 ---
 
-<a href="https://app.daily.dev/NikolaHristov"><img src="https://github.com/nikolarhristov/NikolaRHristov/blob/main/devcard.svg?rev=hs2VsNVqDK" width="400" alt="Nikola's Dev Card"/></a>
+<a href="https://app.daily.dev/nikolahristov"><img src="https://github.com/nikolarhristov/nikolarhristov/blob/main/devcard.svg?rev=hs2VsNVqDK" width="400" alt="Nikola's Dev Card"/></a>
 
 [astro]: https://github.com/withastro/astro
 [astro-compress]: https://github.com/Lightrix/astro-compress

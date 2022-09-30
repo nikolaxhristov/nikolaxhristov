@@ -2,29 +2,29 @@
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="https://astro.build/assets/press/logomark-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://astro.build/assets/press/logomark-light.svg"><img width="25" alt="Astro" src="https://astro.build/assets/press/logomark-light.svg"></picture> Astro
 
-| **[astro-compress] <br /> Compress your files automatically**                        | **[astro-critters] <br /> Inline your critical CSS** | **[astro-img] <br /> Replacement for the default img component** | **[astro-short-urls] <br /> Shorten URLs**                       |
-| :----------------------------------------------------------------------------------- | :--------------------------------------------------- | :--------------------------------------------------------------- | :--------------------------------------------------------------- |
-| **[astro-convert] <br /> Convert your images, files and JavaScript to a new format** | **[astro-dead-links] <br /> Find you dead links**    | **[astro-networks] <br /> An inovative router**                  | **[astro-starter-template] <br /> Opinionated starter template** |
+| **[astro-compress] <br /> Compress your files automatically.**                        | **[astro-critters] <br /> Inline your critical CSS.** | **[astro-img] <br /> Replacement for the default img component.** | **[astro-short-urls] <br /> Shorten URLs.**                       |
+| :------------------------------------------------------------------------------------ | :---------------------------------------------------- | :---------------------------------------------------------------- | :---------------------------------------------------------------- |
+| **[astro-convert] <br /> Convert your images, files and JavaScript to a new format.** | **[astro-dead-links] <br /> Find you dead links.**    | **[astro-networks] <br /> An inovative router.**                  | **[astro-starter-template] <br /> Opinionated starter template.** |
 
 ## <img src="https://raw.githubusercontent.com/nikolarhristov/nikolarhristov/main/.github/img/obs-logo.svg" width="24" height="24" /> OBS Project
 
-| **[camera-tools] <br /> Customize your video feed with CSS** | **[spotify-now-playing] <br /> Spotify Now Playing widget**         |
-| :----------------------------------------------------------- | :------------------------------------------------------------------ |
-| **[OBS] <br /> My OBS Setup**                                | **[spotify-widget] <br /> Spotify Now Playing widget, but working** |
+| **[camera-tools] <br /> Customize your video feed with CSS.** | **[spotify-now-playing] <br /> Spotify Now Playing widget.**         |
+| :------------------------------------------------------------ | :------------------------------------------------------------------- |
+| **[OBS] <br /> My OBS Setup.**                                | **[spotify-widget] <br /> Spotify Now Playing widget, but working.** |
 
 ## <img src="https://raw.githubusercontent.com/npm/logos/master/npm%20square/n.svg" width="22" /> NPM
 
-| **[npm-config] <br /> Build config**   |
-| :------------------------------------- |
-| **[npm-scripts] <br /> Build scripts** |
+| **[npm-config] <br /> Build config.**   |
+| :-------------------------------------- |
+| **[npm-scripts] <br /> Build scripts.** |
 
 ---
 
 ## <img src="https://raw.githubusercontent.com/jglovier/dotfiles-logo/master/dotfiles-logo-icon.png" width="16" /> Dotfiles
 
-| **[dot] <br /> Dotfiles**          | **[vim] <br /> NVIM** |
-| :--------------------------------- | :-------------------- |
-| **[powershell] <br /> Powershell** |                       |
+| **[dot] <br /> Dotfiles.**          | **[vim] <br /> NVIM.** |
+| :---------------------------------- | :--------------------- |
+| **[powershell] <br /> Powershell.** |                        |
 
 ---
 

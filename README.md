@@ -22,15 +22,14 @@
 
 ## <img src="https://raw.githubusercontent.com/jglovier/dotfiles-logo/master/dotfiles-logo-icon.png" width="16" /> Dotfiles
 
-| **[dot] <br /> Dotfiles.**          | **[vim] <br /> NVIM.** |
-| :---------------------------------- | :--------------------- |
-| **[powershell] <br /> Powershell.** |                        |
+| **[dot] <br /> Dotfiles.**          | **[nvim] <br /> NVIM.** |
+| :---------------------------------- | :---------------------- |
+| **[powershell] <br /> Powershell.** |                         |
 
 ---
 
 <a href="https://app.daily.dev/nikolahristov"><img src="https://github.com/nikolarhristov/nikolarhristov/blob/main/devcard.svg?rev=hs2VsNVqDK" width="400" alt="Nikola's Dev Card"/></a>
 
-[astro]: https://github.com/withastro/astro
 [astro-compress]: https://github.com/Lightrix/astro-compress
 [astro-convert]: https://github.com/Lightrix/astro-convert
 [astro-critters]: https://github.com/Lightrix/astro-critters
@@ -39,11 +38,15 @@
 [astro-networks]: https://github.com/Lightrix/astro-networks
 [astro-short-urls]: https://github.com/Lightrix/astro-short-urls
 [astro-starter-template]: https://github.com/Lightrix/astro-starter-template
-[obs project]: https://github.com/obsproject/obs-studio
-[dot]: https://github.com/nikolarhristov/dot
+[astro]: https://github.com/withastro/astro
 [camera-tools]: https://github.com/nikolarhristov/camera-tools
-[spotify-now-playing]: https://github.com/nikolarhristov/spotify-now-playing
-[spotify-widget]: https://github.com/nikolarhristov/spotify-widget
-[obs]: https://github.com/nikolarhristov/obs
+[dot]: https://github.com/nikolarhristov/dot
 [npm-config]: https://github.com/Lightrix/npm/tree/main/config
 [npm-scripts]: https://github.com/Lightrix/npm/tree/main/scripts
+[nvim]: https://github.com/nikolarhristov/nvim
+[obs project]: https://github.com/obsproject/obs-studio
+[obs]: https://github.com/nikolarhristov/obs
+[powershell]: https://github.com/nikolarhristov/powershell
+[zsh]: https://github.com/nikolarhristov/zsh
+[spotify-now-playing]: https://github.com/nikolarhristov/spotify-now-playing
+[spotify-widget]: https://github.com/nikolarhristov/spotify-widget

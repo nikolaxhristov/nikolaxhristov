@@ -14,9 +14,9 @@
 
 ## <img src="https://raw.githubusercontent.com/npm/logos/master/npm%20square/n.svg" width="22" /> NPM
 
-| **[npm-config] <br /> Build config.**   |
-| :-------------------------------------- |
-| **[npm-scripts] <br /> Build scripts.** |
+| **[maintenance] <br /> Maintenance scripts.** | **[npm-config] <br /> Build config.** |
+| :-------------------------------------------- | ------------------------------------- |
+| **[npm-scripts] <br /> Build scripts.**       |                                       |
 
 ---
 
@@ -41,6 +41,7 @@
 [astro]: https://github.com/withastro/astro
 [camera-tools]: https://github.com/nikolaxhristov/camera-tools
 [dot]: https://github.com/nikolaxhristov/dot
+[maintenance]: https://github.com/nikolaxhristov/maintenance
 [npm-config]: https://github.com/Lightrix/npm/tree/main/config
 [npm-scripts]: https://github.com/Lightrix/npm/tree/main/scripts
 [nvim]: https://github.com/nikolaxhristov/nvim

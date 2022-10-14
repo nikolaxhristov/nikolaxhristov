@@ -15,6 +15,8 @@
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-Light-32px.png"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-32px.png"><img width="25" alt="GitHub" src="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-32px.png"></picture> GitHub
 
 | **[maintenance] <br /> Maintenance scripts.** |
+| --------------------------------------------- |
+|                                               |
 
 ## <img src="https://raw.githubusercontent.com/npm/logos/master/npm%20square/n.svg" width="22" /> NPM
 

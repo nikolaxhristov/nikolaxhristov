@@ -6,29 +6,29 @@
 | :------------------------------------------------------------------------------------ | :---------------------------------------------------- | :---------------------------------------------------------------- | :---------------------------------------------------------------- |
 | **[astro-convert] <br /> Convert your images, files and JavaScript to a new format.** | **[astro-dead-links] <br /> Find you dead links.**    | **[astro-networks] <br /> An inovative router.**                  | **[astro-starter-template] <br /> Opinionated starter template.** |
 
+## <img src="https://raw.githubusercontent.com/jglovier/dotfiles-logo/master/dotfiles-logo-icon.png" width="16" /> Dotfiles
+
+| **[dot] <br /> Dotfiles.**          | **[nvim] <br /> NVIM.** |
+| :---------------------------------- | :---------------------- |
+| **[powershell] <br /> Powershell.** |                         |
+
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-Light-32px.png"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-32px.png"><img width="25" alt="GitHub" src="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-32px.png"></picture> GitHub
+
+| **[maintenance] <br /> Maintenance scripts.** |
+| :-------------------------------------------- |
+|                                               |
+
 ## <img src="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/obs-logo.svg" width="24" height="24" /> OBS Project
 
 | **[camera-tools] <br /> Customize your video feed with CSS.** | **[spotify-now-playing] <br /> Spotify Now Playing widget.**         |
 | :------------------------------------------------------------ | :------------------------------------------------------------------- |
 | **[OBS] <br /> My OBS Setup.**                                | **[spotify-widget] <br /> Spotify Now Playing widget, but working.** |
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-Light-32px.png"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-32px.png"><img width="25" alt="GitHub" src="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-32px.png"></picture> GitHub
-
-| **[maintenance] <br /> Maintenance scripts.** |
-| --------------------------------------------- |
-|                                               |
-
 ## <img src="https://raw.githubusercontent.com/npm/logos/master/npm%20square/n.svg" width="22" /> NPM
 
 | **[npm-config] <br /> Build config.**   |
 | :-------------------------------------- |
 | **[npm-scripts] <br /> Build scripts.** |
-
-## <img src="https://raw.githubusercontent.com/jglovier/dotfiles-logo/master/dotfiles-logo-icon.png" width="16" /> Dotfiles
-
-| **[dot] <br /> Dotfiles.**          | **[nvim] <br /> NVIM.** |
-| :---------------------------------- | :---------------------- |
-| **[powershell] <br /> Powershell.** |                         |
 
 <a href="https://app.daily.dev/nikolahristov"><img src="https://github.com/nikolaxhristov/nikolaxhristov/blob/main/devcard.svg?rev=hs2VsNVqDK" width="400" alt="Nikola's Dev Card"/></a>
 

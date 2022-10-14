@@ -12,7 +12,7 @@
 | :------------------------------------------------------------ | :------------------------------------------------------------------- |
 | **[OBS] <br /> My OBS Setup.**                                | **[spotify-widget] <br /> Spotify Now Playing widget, but working.** |
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/obs-logo.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/obs-logo.svg"><img width="25" alt="GitHub" src="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/obs-logo.svg"></picture> GitHub
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-Light-32px.png"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-32px.png"><img width="25" alt="GitHub" src="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-32px.png"></picture> GitHub
 
 | **[maintenance] <br /> Maintenance scripts.** |
 

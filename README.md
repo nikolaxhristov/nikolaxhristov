@@ -12,21 +12,21 @@
 | :------------------------------------------------------------ | :------------------------------------------------------------------- |
 | **[OBS] <br /> My OBS Setup.**                                | **[spotify-widget] <br /> Spotify Now Playing widget, but working.** |
 
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/obs-logo.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/obs-logo.svg"><img width="25" alt="GitHub" src="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/obs-logo.svg"></picture> GitHub
+
+| **[maintenance] <br /> Maintenance scripts.** |
+
 ## <img src="https://raw.githubusercontent.com/npm/logos/master/npm%20square/n.svg" width="22" /> NPM
 
-| **[maintenance] <br /> Maintenance scripts.** | **[npm-config] <br /> Build config.** |
-| :-------------------------------------------- | ------------------------------------- |
-| **[npm-scripts] <br /> Build scripts.**       |                                       |
-
----
+| **[npm-config] <br /> Build config.**   |
+| :-------------------------------------- |
+| **[npm-scripts] <br /> Build scripts.** |
 
 ## <img src="https://raw.githubusercontent.com/jglovier/dotfiles-logo/master/dotfiles-logo-icon.png" width="16" /> Dotfiles
 
 | **[dot] <br /> Dotfiles.**          | **[nvim] <br /> NVIM.** |
 | :---------------------------------- | :---------------------- |
 | **[powershell] <br /> Powershell.** |                         |
-
----
 
 <a href="https://app.daily.dev/nikolahristov"><img src="https://github.com/nikolaxhristov/nikolaxhristov/blob/main/devcard.svg?rev=hs2VsNVqDK" width="400" alt="Nikola's Dev Card"/></a>
 

@@ -2,9 +2,11 @@
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="https://astro.build/assets/press/logomark-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://astro.build/assets/press/logomark-light.svg"><img width="25" alt="Astro" src="https://astro.build/assets/press/logomark-light.svg"></picture> Astro
 
-| **[astro-compress] <br /> Compress your files automatically.**                        | **[astro-critters] <br /> Inline your critical CSS.** | **[astro-img] <br /> Replacement for the default img component.** | **[astro-short-urls] <br /> Shorten URLs.**                       |
-| :------------------------------------------------------------------------------------ | :---------------------------------------------------- | :---------------------------------------------------------------- | :---------------------------------------------------------------- |
-| **[astro-convert] <br /> Convert your images, files and JavaScript to a new format.** | **[astro-dead-links] <br /> Find you dead links.**    | **[astro-networks] <br /> An inovative router.**                  | **[astro-starter-template] <br /> Opinionated starter template.** |
+| **[astro-compress] <br /> Compress your files automatically.** [![npm Version](https://img.shields.io/npm/v/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-compress] | **[astro-critters] <br /> Inline your critical CSS.** [![npm Version](https://img.shields.io/npm/v/astro-critters?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-critters] |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[astro-img] <br /> Replacement for the default img component.**                                                                                                                                                             | **[astro-short-urls] <br /> Shorten URLs.**                                                                                                                                                                          |
+| **[astro-convert] <br /> Convert your images, files and JavaScript to a new format.**                                                                                                                                         | **[astro-dead-links] <br /> Find you dead links.**                                                                                                                                                                   |
+| **[astro-networks] <br /> An inovative router.**                                                                                                                                                                              | **[astro-starter-template] <br /> Opinionated starter template.**                                                                                                                                                    |
 
 ## <img src="https://raw.githubusercontent.com/jglovier/dotfiles-logo/master/dotfiles-logo-icon.png" width="16" /> Dotfiles
 
@@ -53,3 +55,4 @@
 [zsh]: https://github.com/nikolaxhristov/zsh
 [spotify-now-playing]: https://github.com/nikolaxhristov/spotify-now-playing
 [spotify-widget]: https://github.com/nikolaxhristov/spotify-widget
+[@yesmaintenance/scripts]: https://npmjs.org/@yesmaintenance/scripts

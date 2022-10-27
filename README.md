@@ -4,21 +4,33 @@
 
 <table>
 	<tr>
-		<td padding=0>
-		<img src="https://img.shields.io/github/workflow/status/astro-community/astro-compress/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
+		<td>
+			<img src="https://img.shields.io/github/workflow/status/astro-community/astro-compress/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
 			<img src="https://img.shields.io/npm/v/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
-			<img src="https://img.shields.io/npm/dw/astro-compress?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+			<img src="https://img.shields.io/npm/dw/astro-compress?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
 		</td>
 		<td>
 			<b>
 				<img src="https://img.shields.io/github/stars/astro-community/astro-compress?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<a href="https://npmjs.org/astro-compress">astro-compress</a>
 				<br />
-				Compress your files automatically.<br />
+				Compress your files automatically.
+			</b>
+		</td>
+		<td>
+			<img src="https://img.shields.io/github/workflow/status/astro-community/astro-critters/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
+			<img src="https://img.shields.io/npm/v/astro-critters?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+			<img src="https://img.shields.io/npm/dw/astro-critters?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
+		</td>
+		<td>
+			<b>
+				<img src="https://img.shields.io/github/stars/astro-community/astro-critters?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+				<a href="https://npmjs.org/astro-critters">astro-critters</a>
+				<br />
+				Inline your critical CSS.
 			</b>
 		</td>
 	</tr>
-
 </table>
 
 | <table border="none"><tr><td valign="center">[![npm Version](https://img.shields.io/npm/v/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-compress]</td><td>**[astro-compress] <br /> Compress your files automatically.** </td></tr></table>                       | <table border="none"><tr><td valign="center">[![npm Version](https://img.shields.io/npm/v/astro-critters?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-critters]</td><td>**[astro-critters] <br /> Inline your critical CSS.** </td></tr></table>                             |

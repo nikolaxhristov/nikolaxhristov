@@ -45,7 +45,7 @@
 				<img src="https://img.shields.io/github/stars/nikolaxhristov/astro-img?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<a href="https://npmjs.org/astro-img">astro-img</a>
 				<br />
-				Compress your files automatically.
+				Replacement for the default img component.
 			</b>
 		</td>
 		<!-- astro-short-urls -->

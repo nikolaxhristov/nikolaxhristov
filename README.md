@@ -14,8 +14,7 @@
 				<a href="https://npmjs.org/astro-compress">astro-compress</a>
 				<br />
 				Compress your files automatically.
-				<br />
-				<br />
+				<hr />
 				<img src="https://img.shields.io/github/workflow/status/astro-community/astro-compress/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" />
 				<img src="https://img.shields.io/npm/v/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
 			</b>

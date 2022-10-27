@@ -4,6 +4,7 @@
 
 <table>
 	<tr>
+		<!-- astro-compress -->
 		<td>
 			<img src="https://img.shields.io/github/workflow/status/astro-community/astro-compress/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
 			<img src="https://img.shields.io/npm/v/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
@@ -17,6 +18,7 @@
 				Compress your files automatically.
 			</b>
 		</td>
+		<!-- astro-critters -->
 		<td>
 			<img src="https://img.shields.io/github/workflow/status/astro-community/astro-critters/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
 			<img src="https://img.shields.io/npm/v/astro-critters?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
@@ -31,11 +33,38 @@
 			</b>
 		</td>
 	</tr>
+	<tr>
+		<!-- astro-img -->
+		<td>
+			<img src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-img/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
+			<img src="https://img.shields.io/npm/v/astro-img?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+			<img src="https://img.shields.io/npm/dw/astro-img?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
+		</td>
+		<td>
+			<b>
+				<img src="https://img.shields.io/github/stars/nikolaxhristov/astro-img?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+				<a href="https://npmjs.org/astro-img">astro-img</a>
+				<br />
+				Compress your files automatically.
+			</b>
+		</td>
+		<!-- astro-short-urls -->
+		<td>
+			<img src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-short-urls/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
+			<img src="https://img.shields.io/npm/v/astro-short-urls?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+			<img src="https://img.shields.io/npm/dw/astro-short-urls?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
+		</td>
+		<td>
+			<b>
+				<img src="https://img.shields.io/github/stars/nikolaxhristov/astro-short-urls?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+				<a href="https://npmjs.org/astro-short-urls">astro-short-urls</a>
+				<br />
+				Shorten URLs.
+			</b>
+		</td>
+	<tr>
 </table>
 
-| <table border="none"><tr><td valign="center">[![npm Version](https://img.shields.io/npm/v/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-compress]</td><td>**[astro-compress] <br /> Compress your files automatically.** </td></tr></table>                       | <table border="none"><tr><td valign="center">[![npm Version](https://img.shields.io/npm/v/astro-critters?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-critters]</td><td>**[astro-critters] <br /> Inline your critical CSS.** </td></tr></table>                             |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <table border="none"><tr><td valign="center">[![npm Version](https://img.shields.io/npm/v/astro-img?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-img]</td><td>**[astro-img] <br /> Replacement for the default img component.**</td></tr></table>                               | <table border="none"><tr><td valign="center">[![npm Version](https://img.shields.io/npm/v/astro-short-urls?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-short-urls]</td> <td> **[astro-short-urls] <br /> Shorten URLs.** </td></tr></table>                                 |
 | <table border="none"><tr><td valign="center">[![npm Version](https://img.shields.io/npm/v/astro-convert?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-convert]</td><td> **[astro-convert] <br /> Convert your images, files and JavaScript to a new format.** </td></tr></table> | <table border="none"><tr><td valign="center"> [![npm Version](https://img.shields.io/npm/v/astro-dead-links?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-dead-links]</td><td>**[astro-dead-links] <br /> Find you dead links.** </td></tr></table>                           |
 | <table border="none"><tr><td valign="center">[![npm Version](https://img.shields.io/npm/v/astro-networks?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-networks]</td><td>**[astro-networks] <br /> An inovative router.** </td></tr></table>                                     | <table border="none"><tr><td valign="center">[![npm Version](https://img.shields.io/npm/v/astro-starter-template?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-starter-template]</td><td> **[astro-starter-template] <br /> Opinionated starter template.**</td></tr></table> |
 

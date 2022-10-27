@@ -11,7 +11,8 @@
 		</td>
 		<td>
 			<b>
-				<a href="https://npmjs.org/astro-compress">astro-compress</a><img src="https://img.shields.io/github/stars/astro-community/astro-compress?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" />
+				<img src="https://img.shields.io/github/stars/astro-community/astro-compress?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+				<a href="https://npmjs.org/astro-compress">astro-compress</a>
 				<br />
 				Compress your files automatically.<br />
 			</b>

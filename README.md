@@ -5,7 +5,7 @@
 <table>
 	<tr>
 		<td>
-			<table>
+			<table border="0">
 				<tr>
 					<td>
 						<img src="https://img.shields.io/github/workflow/status/yesmaintenance/npm/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />

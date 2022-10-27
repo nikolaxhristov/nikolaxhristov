@@ -6,13 +6,13 @@
 	<tr>
 		<td>
 			<b>
-				<a href="https://npmjs.org/astro-compress">astro-compress</a><br/>
+				<a href="https://npmjs.org/astro-compress">astro-compress</a><br />
 				Compress your files automatically.
 			</b>
 		</td>
 		<td>
 			<b>
-				<a href="https://npmjs.org/astro-critters">astro-critters</a><br/>
+				<a href="https://npmjs.org/astro-critters">astro-critters</a><br />
 				Inline your critical CSS.
     		</b>
     	</td>

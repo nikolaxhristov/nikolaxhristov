@@ -63,10 +63,67 @@
 			</b>
 		</td>
 	<tr>
+	<tr>
+		<!-- astro-convert -->
+		<td>
+			<img src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-convert/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
+			<img src="https://img.shields.io/npm/v/astro-convert?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+			<img src="https://img.shields.io/npm/dw/astro-convert?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
+		</td>
+		<td>
+			<b>
+				<img src="https://img.shields.io/github/stars/nikolaxhristov/astro-convert?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+				<a href="https://npmjs.org/astro-convert">astro-convert</a>
+				<br />
+				Convert your images, files and JavaScript to a new format.
+			</b>
+		</td>
+		<!-- astro-dead-links -->
+		<td>
+			<img src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-dead-links/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
+			<img src="https://img.shields.io/npm/v/astro-dead-links?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+			<img src="https://img.shields.io/npm/dw/astro-dead-links?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
+		</td>
+		<td>
+			<b>
+				<img src="https://img.shields.io/github/stars/nikolaxhristov/astro-dead-links?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+				<a href="https://npmjs.org/astro-dead-links">astro-dead-links</a>
+				<br />
+				Find you dead links.
+			</b>
+		</td>
+	<tr>
+	<tr>
+		<!-- astro-networks -->
+		<td>
+			<img src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-networks/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
+			<img src="https://img.shields.io/npm/v/astro-networks?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+			<img src="https://img.shields.io/npm/dw/astro-networks?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
+		</td>
+		<td>
+			<b>
+				<img src="https://img.shields.io/github/stars/nikolaxhristov/astro-networks?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+				<a href="https://npmjs.org/astro-networks">astro-networks</a>
+				<br />
+				An inovative router.
+			</b>
+		</td>
+		<!-- astro-starter-template -->
+		<td>
+			<img src="https://img.shields.io/github/workflow/status/lightrix/astro-starter-template/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
+			<img src="https://img.shields.io/npm/v/astro-starter-template?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+			<img src="https://img.shields.io/npm/dw/astro-starter-template?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
+		</td>
+		<td>
+			<b>
+				<img src="https://img.shields.io/github/stars/lightrix/astro-starter-template?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+				<a href="https://npmjs.org/astro-starter-template">astro-starter-template</a>
+				<br />
+				Opinionated starter template.
+			</b>
+		</td>
+	<tr>
 </table>
-
-| <table border="none"><tr><td valign="center">[![npm Version](https://img.shields.io/npm/v/astro-convert?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-convert]</td><td> **[astro-convert] <br /> Convert your images, files and JavaScript to a new format.** </td></tr></table> | <table border="none"><tr><td valign="center"> [![npm Version](https://img.shields.io/npm/v/astro-dead-links?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-dead-links]</td><td>**[astro-dead-links] <br /> Find you dead links.** </td></tr></table>                           |
-| <table border="none"><tr><td valign="center">[![npm Version](https://img.shields.io/npm/v/astro-networks?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-networks]</td><td>**[astro-networks] <br /> An inovative router.** </td></tr></table>                                     | <table border="none"><tr><td valign="center">[![npm Version](https://img.shields.io/npm/v/astro-starter-template?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-starter-template]</td><td> **[astro-starter-template] <br /> Opinionated starter template.**</td></tr></table> |
 
 ## <img src="https://raw.githubusercontent.com/jglovier/dotfiles-logo/master/dotfiles-logo-icon.png" width="16" /> Dotfiles
 

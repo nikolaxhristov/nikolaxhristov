@@ -6,19 +6,17 @@
 	<tr>
 		<!-- astro-compress -->
 		<td>
+				<img src="https://img.shields.io/github/workflow/status/astro-community/astro-compress/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
+				<img src="https://img.shields.io/npm/v/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+				<img src="https://img.shields.io/librariesio/release/npm/astro-compress?label=dependencies&logo=dependabot&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/github/stars/astro-community/astro-compress?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
-				<img src="https://img.shields.io/npm/dw/astro-compress?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
+				<img src="https://img.shields.io/npm/dw/astro-compress?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 		</td>
 		<td>
 			<b>
 				<a href="https://npmjs.org/astro-compress">astro-compress</a>
 				<br />
 				Compress your files automatically.
-				<br />
-				<br />
-				<img src="https://img.shields.io/github/workflow/status/astro-community/astro-compress/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" />
-				<img src="https://img.shields.io/npm/v/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
-				<img src="https://img.shields.io/librariesio/release/npm/astro-compress?label=dependencies&logo=dependabot&color=black&logoColor=white&labelColor=black&logoWidth=15" />
 			</b>
 		</td>
 		<!-- astro-critters -->

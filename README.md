@@ -4,32 +4,18 @@
 
 <table>
 	<tr>
-		<td>
-			<table>
-				<tr>
-					<td padding=0>
-						<img src="https://img.shields.io/github/workflow/status/yesmaintenance/npm/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
-						<img src="https://img.shields.io/npm/v/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
-						<img src="https://img.shields.io/npm/dw/astro-compress?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
-					</td>
-					<td>
-						<b>
-							<a href="https://npmjs.org/astro-compress">astro-compress</a><br />
-							Compress your files automatically.
-						</b>
-					</td>
-				</tr>
-			</table>
+		<td padding=0>
+			<img src="https://img.shields.io/github/workflow/status/yesmaintenance/npm/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
+			<img src="https://img.shields.io/npm/v/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+			<img src="https://img.shields.io/npm/dw/astro-compress?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 		</td>
 		<td>
 			<b>
-				<a href="https://npmjs.org/astro-critters">astro-critters</a><br />
-				Inline your critical CSS.
-    		</b>
-    	</td>
-    </tr>
-    <tr></tr>
-
+				<a href="https://npmjs.org/astro-compress">astro-compress</a><br />
+				Compress your files automatically.
+			</b>
+		</td>
+	</tr>
 </table>
 
 | <table border="none"><tr><td valign="center">[![npm Version](https://img.shields.io/npm/v/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-compress]</td><td>**[astro-compress] <br /> Compress your files automatically.** </td></tr></table>                       | <table border="none"><tr><td valign="center">[![npm Version](https://img.shields.io/npm/v/astro-critters?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-critters]</td><td>**[astro-critters] <br /> Inline your critical CSS.** </td></tr></table>                             |

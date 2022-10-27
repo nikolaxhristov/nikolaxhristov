@@ -2,6 +2,25 @@
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="https://astro.build/assets/press/logomark-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://astro.build/assets/press/logomark-light.svg"><img width="25" alt="Astro" src="https://astro.build/assets/press/logomark-light.svg"></picture> Astro
 
+<table>
+	<tr>
+		<td>
+			<b>
+				<a href="https://npmjs.org/astro-compress">astro-compress</a><br/>
+				Compress your files automatically.
+			</b>
+		</td>
+		<td>
+			<b>
+				<a href="https://npmjs.org/astro-critters">astro-critters</a><br/>
+				Inline your critical CSS.
+    		</b>
+    	</td>
+    </tr>
+    <tr></tr>
+
+</table>
+
 | <table border="none"><tr><td valign="center">[![npm Version](https://img.shields.io/npm/v/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-compress]</td><td>**[astro-compress] <br /> Compress your files automatically.** </td></tr></table>                       | <table border="none"><tr><td valign="center">[![npm Version](https://img.shields.io/npm/v/astro-critters?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-critters]</td><td>**[astro-critters] <br /> Inline your critical CSS.** </td></tr></table>                             |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <table border="none"><tr><td valign="center">[![npm Version](https://img.shields.io/npm/v/astro-img?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-img]</td><td>**[astro-img] <br /> Replacement for the default img component.**</td></tr></table>                               | <table border="none"><tr><td valign="center">[![npm Version](https://img.shields.io/npm/v/astro-short-urls?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15)][astro-short-urls]</td> <td> **[astro-short-urls] <br /> Shorten URLs.** </td></tr></table>                                 |

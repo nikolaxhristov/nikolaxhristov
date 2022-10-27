@@ -5,10 +5,21 @@
 <table>
 	<tr>
 		<td>
-			<b>
-				<a href="https://npmjs.org/astro-compress">astro-compress</a><br />
-				Compress your files automatically.
-			</b>
+			<table>
+				<tr>
+					<td>
+						<img src="https://img.shields.io/github/workflow/status/yesmaintenance/npm/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
+						<img src="https://img.shields.io/npm/v/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+						<img src="https://img.shields.io/npm/dw/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
+					</td>
+					<td>
+						<b>
+							<a href="https://npmjs.org/astro-compress">astro-compress</a><br />
+							Compress your files automatically.
+						</b>
+					</td>
+				</tr>
+			</table>
 		</td>
 		<td>
 			<b>

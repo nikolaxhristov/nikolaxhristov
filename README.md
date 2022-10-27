@@ -2,12 +2,12 @@
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="https://astro.build/assets/press/logomark-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://astro.build/assets/press/logomark-light.svg"><img width="25" alt="Astro" src="https://astro.build/assets/press/logomark-light.svg"></picture> Astro
 
-<table style="border: none;">
+<table>
 	<tr>
 		<td>
 			<table>
 				<tr>
-					<td>
+					<td padding=0>
 						<img src="https://img.shields.io/github/workflow/status/yesmaintenance/npm/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
 						<img src="https://img.shields.io/npm/v/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 						<img src="https://img.shields.io/npm/dw/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />

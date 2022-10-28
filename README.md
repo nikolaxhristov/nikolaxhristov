@@ -136,25 +136,30 @@
 | :---------------------------------- | :---------------------- |
 | **[powershell] <br /> Powershell.** |                         |
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-Light-32px.png"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-32px.png"><img width="25" alt="GitHub" src="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-32px.png"></picture> GitHub
-
 <table>
-	<tr>
-		<!-- @yesmaintenance/scripts -->
-		<td>
-			<a href="https://github.com/yesmaintenance/npm/actions/workflows/node.yml"><img src="https://img.shields.io/github/workflow/status/yesmaintenance/npm/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><img src="https://img.shields.io/npm/v/@yesmaintenance/scripts?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
-			<a href="https://npmjs.org/@yesmaintenance/scripts"><img src="https://img.shields.io/librariesio/release/npm/@yesmaintenance/scripts?label=dependencies&logo=dependabot&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
-			<a href="https://npmjs.org/@yesmaintenance/scripts"><img src="https://img.shields.io/npm/dw/@yesmaintenance/scripts?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a>
-		</td>
-		<td>
-			<a href="https://github.com/yesmaintenance/npm"><img src="https://img.shields.io/github/stars/yesmaintenance/npm?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
-			<b>
-				<a href="https://npmjs.org/@yesmaintenance/scripts">Maintenance scripts</a>
-				<br />
-				Star repositories, put Dependabot everywhere and clean repositories.<br />
-			</b>
-		</td>
-	</tr>
+	<tbody>
+		<tr>
+			<td colspan=4>
+				<h1><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-Light-32px.png"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-32px.png"><img width="25" alt="GitHub" src="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-32px.png"></picture> GitHub</h1>
+			</td>
+		</tr>
+		<tr>
+			<!-- @yesmaintenance/scripts -->
+			<td>
+				<a href="https://github.com/yesmaintenance/npm/actions/workflows/node.yml"><img src="https://img.shields.io/github/workflow/status/yesmaintenance/npm/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><img src="https://img.shields.io/npm/v/@yesmaintenance/scripts?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
+				<a href="https://npmjs.org/@yesmaintenance/scripts"><img src="https://img.shields.io/librariesio/release/npm/@yesmaintenance/scripts?label=dependencies&logo=dependabot&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
+				<a href="https://npmjs.org/@yesmaintenance/scripts"><img src="https://img.shields.io/npm/dw/@yesmaintenance/scripts?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a>
+			</td>
+			<td>
+				<a href="https://github.com/yesmaintenance/npm"><img src="https://img.shields.io/github/stars/yesmaintenance/npm?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
+				<b>
+					<a href="https://npmjs.org/@yesmaintenance/scripts">Maintenance scripts</a>
+					<br />
+					Star repositories, put Dependabot everywhere and clean repositories.<br />
+				</b>
+			</td>
+		</tr>
+	<tbody>
 </table>
 
 ## <img src="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/obs-logo.svg" width="24" height="24" /> OBS Project

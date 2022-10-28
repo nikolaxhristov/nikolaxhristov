@@ -10,12 +10,12 @@
 		<tr>
 			<!-- astro-compress -->
 			<td>
-				<a href="https://github.com/astro-community/astro-compress/actions/workflows/node.yml"><img src="https://img.shields.io/github/workflow/status/astro-community/astro-compress/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><img src="https://img.shields.io/npm/v/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
+				<br /><a href="https://github.com/astro-community/astro-compress/actions/workflows/node.yml"><img src="https://img.shields.io/github/workflow/status/astro-community/astro-compress/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><img src="https://img.shields.io/npm/v/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
 				<a href="https://npmjs.org/astro-compress"><img src="https://img.shields.io/librariesio/release/npm/astro-compress?label=dependencies&logo=dependabot&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
 				<a href="https://npmjs.org/astro-compress"><img src="https://img.shields.io/npm/dw/astro-compress?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a>
 			</td>
 			<td>
-				<a href="https://github.com/astro-community/astro-compress"><img src="https://img.shields.io/github/stars/astro-community/astro-compress?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
+				<br /><a href="https://github.com/astro-community/astro-compress"><img src="https://img.shields.io/github/stars/astro-community/astro-compress?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
 				<b>
 					<a href="https://npmjs.org/astro-compress">astro-compress</a>
 					<br />
@@ -146,12 +146,12 @@
 		<tr>
 			<!-- @yesmaintenance/scripts -->
 			<td>
-				<a href="https://github.com/yesmaintenance/npm/actions/workflows/node.yml"><img src="https://img.shields.io/github/workflow/status/yesmaintenance/npm/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><img src="https://img.shields.io/npm/v/@yesmaintenance/scripts?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
+				<br /><a href="https://github.com/yesmaintenance/npm/actions/workflows/node.yml"><img src="https://img.shields.io/github/workflow/status/yesmaintenance/npm/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><img src="https://img.shields.io/npm/v/@yesmaintenance/scripts?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
 				<a href="https://npmjs.org/@yesmaintenance/scripts"><img src="https://img.shields.io/librariesio/release/npm/@yesmaintenance/scripts?label=dependencies&logo=dependabot&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
 				<a href="https://npmjs.org/@yesmaintenance/scripts"><img src="https://img.shields.io/npm/dw/@yesmaintenance/scripts?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a>
 			</td>
 			<td>
-				<a href="https://github.com/yesmaintenance/npm"><img src="https://img.shields.io/github/stars/yesmaintenance/npm?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
+				<br /><a href="https://github.com/yesmaintenance/npm"><img src="https://img.shields.io/github/stars/yesmaintenance/npm?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
 				<b>
 					<a href="https://npmjs.org/@yesmaintenance/scripts">Maintenance scripts</a>
 					<br />

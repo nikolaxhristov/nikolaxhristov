@@ -24,7 +24,7 @@
 			</td>
 			<!-- astro-critters -->
 			<td>
-				<img src="https://img.shields.io/github/workflow/status/astro-community/astro-critters/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
+				<br /><img src="https://img.shields.io/github/workflow/status/astro-community/astro-critters/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/v/astro-critters?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/dw/astro-critters?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
 			</td>
@@ -40,7 +40,7 @@
 		<tr>
 			<!-- astro-img -->
 			<td>
-				<img src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-img/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
+				<br /><img src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-img/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/v/astro-img?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/dw/astro-img?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
 			</td>
@@ -54,7 +54,7 @@
 			</td>
 			<!-- astro-short-urls -->
 			<td>
-				<img src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-short-urls/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
+				<br /><img src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-short-urls/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/v/astro-short-urls?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/dw/astro-short-urls?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
 			</td>
@@ -70,7 +70,7 @@
 		<tr>
 			<!-- astro-convert -->
 			<td>
-				<img src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-convert/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
+				<br /><img src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-convert/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/v/astro-convert?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/dw/astro-convert?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
 			</td>
@@ -84,7 +84,7 @@
 			</td>
 			<!-- astro-dead-links -->
 			<td>
-				<img src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-dead-links/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
+				<br /><img src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-dead-links/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/v/astro-dead-links?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/dw/astro-dead-links?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
 			</td>
@@ -100,7 +100,7 @@
 		<tr>
 			<!-- astro-networks -->
 			<td>
-				<img src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-networks/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
+				<br /><img src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-networks/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/v/astro-networks?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/dw/astro-networks?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
 			</td>
@@ -114,7 +114,7 @@
 			</td>
 			<!-- astro-starter-template -->
 			<td>
-				<img src="https://img.shields.io/github/workflow/status/lightrix/astro-starter-template/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
+				<br /><img src="https://img.shields.io/github/workflow/status/lightrix/astro-starter-template/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/v/astro-starter-template?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/dw/astro-starter-template?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
 			</td>

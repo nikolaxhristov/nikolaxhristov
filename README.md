@@ -15,7 +15,7 @@
 				<a href="https://npmjs.org/astro-compress"><img src="https://img.shields.io/librariesio/release/npm/astro-compress?label=dependencies&logo=dependabot&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
 				<a href="https://npmjs.org/astro-compress"><img src="https://img.shields.io/npm/dw/astro-compress?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a>
 			</td>
-			<td>
+			<td valign="top">
 				<br /><a href="https://github.com/astro-community/astro-compress"><img src="https://img.shields.io/github/stars/astro-community/astro-compress?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
 				<b>
 					<a href="https://npmjs.org/astro-compress">astro-compress</a>
@@ -29,7 +29,7 @@
 				<img src="https://img.shields.io/npm/v/astro-critters?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/dw/astro-critters?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
 			</td>
-			<td>
+			<td valign="top">
 				<b>
 					<img src="https://img.shields.io/github/stars/astro-community/astro-critters?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 					<a href="https://npmjs.org/astro-critters">astro-critters</a>
@@ -45,7 +45,7 @@
 				<img src="https://img.shields.io/npm/v/astro-img?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/dw/astro-img?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
 			</td>
-			<td>
+			<td valign="top">
 				<b>
 					<img src="https://img.shields.io/github/stars/nikolaxhristov/astro-img?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 					<a href="https://npmjs.org/astro-img">astro-img</a>
@@ -59,7 +59,7 @@
 				<img src="https://img.shields.io/npm/v/astro-short-urls?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/dw/astro-short-urls?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
 			</td>
-			<td>
+			<td valign="top">
 				<b>
 					<img src="https://img.shields.io/github/stars/nikolaxhristov/astro-short-urls?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 					<a href="https://npmjs.org/astro-short-urls">astro-short-urls</a>
@@ -75,7 +75,7 @@
 				<img src="https://img.shields.io/npm/v/astro-convert?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/dw/astro-convert?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
 			</td>
-			<td>
+			<td valign="top">
 				<b>
 					<img src="https://img.shields.io/github/stars/nikolaxhristov/astro-convert?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 					<a href="https://npmjs.org/astro-convert">astro-convert</a>
@@ -89,7 +89,7 @@
 				<img src="https://img.shields.io/npm/v/astro-dead-links?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/dw/astro-dead-links?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
 			</td>
-			<td>
+			<td valign="top">
 				<b>
 					<img src="https://img.shields.io/github/stars/nikolaxhristov/astro-dead-links?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 					<a href="https://npmjs.org/astro-dead-links">astro-dead-links</a>
@@ -105,7 +105,7 @@
 				<img src="https://img.shields.io/npm/v/astro-networks?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/dw/astro-networks?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
 			</td>
-			<td>
+			<td valign="top">
 				<b>
 					<img src="https://img.shields.io/github/stars/nikolaxhristov/astro-networks?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 					<a href="https://npmjs.org/astro-networks">astro-networks</a>
@@ -119,7 +119,7 @@
 				<img src="https://img.shields.io/npm/v/astro-starter-template?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 				<img src="https://img.shields.io/npm/dw/astro-starter-template?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" />
 			</td>
-			<td>
+			<td valign="top">
 				<b>
 					<img src="https://img.shields.io/github/stars/lightrix/astro-starter-template?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /><br />
 					<a href="https://npmjs.org/astro-starter-template">astro-starter-template</a>
@@ -151,7 +151,7 @@
 				<a href="https://npmjs.org/@yesmaintenance/scripts"><img src="https://img.shields.io/librariesio/release/npm/@yesmaintenance/scripts?label=dependencies&logo=dependabot&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
 				<a href="https://npmjs.org/@yesmaintenance/scripts"><img src="https://img.shields.io/npm/dw/@yesmaintenance/scripts?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a>
 			</td>
-			<td>
+			<td valign="top">
 				<br /><a href="https://github.com/yesmaintenance/npm"><img src="https://img.shields.io/github/stars/yesmaintenance/npm?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
 				<b>
 					<a href="https://npmjs.org/@yesmaintenance/scripts">Maintenance scripts</a>

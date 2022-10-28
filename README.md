@@ -142,12 +142,12 @@
 	<tr>
 		<!-- @yesmaintenance/scripts -->
 		<td>
-			<a href="https://github.com/yesmaintenance/npm/actions/workflows/node.yml"><img src="https://img.shields.io/github/workflow/status/yesmaintenance/scripts/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><img src="https://img.shields.io/npm/v/@yesmaintenance/scripts?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
+			<a href="https://github.com/yesmaintenance/npm/actions/workflows/node.yml"><img src="https://img.shields.io/github/workflow/status/yesmaintenance/npm/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15" /><img src="https://img.shields.io/npm/v/@yesmaintenance/scripts?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
 			<a href="https://npmjs.org/@yesmaintenance/scripts"><img src="https://img.shields.io/librariesio/release/npm/@yesmaintenance/scripts?label=dependencies&logo=dependabot&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
-			<a href="https://npmjs.org/scripts"><img src="https://img.shields.io/npm/dw/@yesmaintenance/scripts?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a>
+			<a href="https://npmjs.org/@yesmaintenance/scripts"><img src="https://img.shields.io/npm/dw/@yesmaintenance/scripts?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a>
 		</td>
 		<td>
-			<a href="https://github.com/yesmaintenance/npm"><img src="https://img.shields.io/github/stars/yesmaintenance/scripts?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
+			<a href="https://github.com/yesmaintenance/npm"><img src="https://img.shields.io/github/stars/yesmaintenance/npm?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15" /></a><br />
 			<b>
 				<a href="https://npmjs.org/@yesmaintenance/scripts">Maintenance scripts</a>
 				<br />

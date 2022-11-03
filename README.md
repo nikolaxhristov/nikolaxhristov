@@ -2,7 +2,7 @@
 
 <table>
 	<tbody>
-		<tr>
+		<tr></tr>
 			<td colspan=4>
 				<h1><picture><source media="(prefers-color-scheme: dark)" srcset="https://astro.build/assets/press/logomark-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://astro.build/assets/press/logomark-light.svg"><img width="25" alt="Astro" src="https://astro.build/assets/press/logomark-light.svg"></picture> Astro</h1>
 			</td>

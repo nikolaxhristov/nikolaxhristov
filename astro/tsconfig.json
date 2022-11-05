@@ -1,7 +1,7 @@
 {
 	"compilerOptions": {
 		"baseUrl": ".",
-		"types": ["astro/client", "astro/env"]
+		"types": ["astro/client", "astro/env", "astro/components"]
 	},
 	"extends": "@lightrix/config/base/ts"
 }

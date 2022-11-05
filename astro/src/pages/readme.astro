@@ -1,55 +1,71 @@
 ---
 import Base from "./../layouts/Base.astro";
-import fs from "fs";
+import PackagesRow from "./../components/PackagesRow.astro";
 
-import { resolve } from "path";
-
-const repositories: {
-	[key: string]: any;
-} = JSON.parse(
-	(
-		await fs.promises.readFile(
-			resolve(`./node_modules/all-the-package-repos/data/packages.json`)
-		)
-	).toString()
-);
-
-const packages = new Map();
+const packages = new Map<any, any>();
 
 packages.set(
 	"astro",
-	new Set([
-		"astro-compress",
-		"astro-critters",
-		"astro-img",
-		"astro-short-urls",
-		"astro-convert",
-		"astro-dead-links",
-		"astro-networks",
-		"astro-starter-template",
+	new Set<string>([
+		"npm:astro-compress",
+		"npm:astro-critters",
+		"npm:astro-img",
+		"npm:astro-short-urls",
+		"npm:astro-convert",
+		"npm:astro-dead-links",
+		"npm:astro-networks",
+		"npm:astro-starter-template",
 	])
 );
 
-Array.from(packages.keys()).forEach((packageType) => {
-	const newPackages = new Set<{
+packages.set(
+	"github",
+	new Set<string>([
+		"npm:@yesmaintenance/scripts",
+		"npm:github-history-slider",
+	])
+);
+
+packages.set(
+	"npm",
+	new Set<string>(["npm:@lightrix/config", "npm:@lightrix/scripts"])
+);
+
+for (const packageType of packages.keys()) {
+	let newPackages = new Set<{
+		key?: string;
 		name?: string;
 		githubUrl?: string;
-	}>([]);
+		githubOwnerRepo?: string;
+		description?: string;
+	}>();
 
-	packages.get(packageType).forEach(async (packageName: string) =>
-		newPackages.add({
-			name: packageName,
-			githubUrl: repositories[packageName],
-		})
-	);
+	for (const packageKey of Array.from(packages.get(packageType)).filter(
+		(_packageKey: any) => _packageKey.match(/npm:/)
+	)) {
+		if (typeof packageKey === "string") {
+			const packageName = packageKey.replace("npm:", "");
+
+			const packageJson = await (
+				await fetch(`https://registry.npmjs.org/${packageName}`)
+			).json();
+
+			newPackages.add({
+				key: packageKey,
+				name: packageName,
+				githubUrl: packageJson.homepage,
+				githubOwnerRepo: packageJson.homepage
+					.replace("https://github.com/", "")
+					.replace("http://github.com/", "")
+					.replace("git+https://github.com/", "")
+					.replace("git+http://github.com/", "")
+					.replace("#readme", ""),
+				description: packageJson.description,
+			});
+		}
+	}
 
 	packages.set(packageType, newPackages);
-});
-
-function* chunks<T>(arr: T[], n: number): Generator<T[], void> {
-	for (let i = 0; i < arr.length; i += n) {
-		yield arr.slice(i, i + n);
-	}
 }
 ---
 
@@ -91,255 +107,16 @@ function* chunks<T>(arr: T[], n: number): Generator<T[], void> {
 						</h1>
 					</td>
 				</tr>
-				{
-					[...chunks(Array.from(packages.get("astro")), 2)].map(
-						(packageRow) => (
-							<>
-								<tr>
-									{packageRow.map((_package: any) => (
-										<>
-											<td valign="middle">
-												<br />
-												<a
-													href={`${_package.githubUrl}/actions/workflows/node.yml`}>
-													<img
-														src={`https://img.shields.io/github/workflow/status/${_package.githubUrl.replace(
-															"https://github.com/",
-															""
-														)}/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15`}
-													/>
-												</a>
-											</td>
-											<td valign="middle">
-												{_package.name}
-											</td>
-										</>
-									))}
-								</tr>
-							</>
-						)
-					)
-				}
-				<!-- astro-compress -->
-				<td valign="middle">
-					<br /><br />
-					<a href="https://nodejs.org/astro-compress"
-						><img
-							src="https://img.shields.io/npm/v/astro-compress?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15"
-						/>
-					</a><br />
-					<a href="https://npmjs.org/astro-compress"
-						><img
-							src="https://img.shields.io/librariesio/release/npm/astro-compress?label=dependencies&logo=dependabot&color=black&logoColor=white&labelColor=black&logoWidth=15"
-						/>
-					</a><br />
-					<a href="https://npmjs.org/astro-compress"
-						><img
-							src="https://img.shields.io/npm/dw/astro-compress?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15"
-						/>
-					</a>
-				</td>
-				<td valign="top">
-					<br /><a
-						href="https://github.com/astro-community/astro-compress"
-						><img
-							src="https://img.shields.io/github/stars/astro-community/astro-compress?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15"
-						/>
-					</a><br />
-					<b>
-						<a href="https://npmjs.org/astro-compress"
-							>astro-compress</a
-						>
-						<br />
-						Compress your files automatically.<br />
-					</b>
-				</td>
-				<!-- astro-critters -->
-				<td valign="middle">
-					<br /><img
-						src="https://img.shields.io/github/workflow/status/astro-community/astro-critters/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15"
-					/><br />
-					<img
-						src="https://img.shields.io/npm/v/astro-critters?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15"
-					/><br />
-					<img
-						src="https://img.shields.io/npm/dw/astro-critters?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15"
-					/>
-				</td>
-				<td valign="top">
-					<br />
-					<b>
-						<img
-							src="https://img.shields.io/github/stars/astro-community/astro-critters?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15"
-						/><br />
-						<a href="https://npmjs.org/astro-critters"
-							>astro-critters</a
-						>
-						<br />
-						Inline your critical CSS.
-					</b>
-				</td>
-				<tr>
-					<!-- astro-img -->
-					<td valign="middle">
-						<br /><img
-							src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-img/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15"
-						/><br />
-						<img
-							src="https://img.shields.io/npm/v/astro-img?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15"
-						/><br />
-						<img
-							src="https://img.shields.io/npm/dw/astro-img?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15"
-						/>
-					</td>
-					<td valign="top">
-						<b>
-							<img
-								src="https://img.shields.io/github/stars/nikolaxhristov/astro-img?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15"
-							/><br />
-							<a href="https://npmjs.org/astro-img">astro-img</a>
-							<br />
-							Replacement for the default img component.
-						</b>
-					</td>
-					<!-- astro-short-urls -->
-					<td valign="middle">
-						<br /><img
-							src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-short-urls/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15"
-						/><br />
-						<img
-							src="https://img.shields.io/npm/v/astro-short-urls?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15"
-						/><br />
-						<img
-							src="https://img.shields.io/npm/dw/astro-short-urls?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15"
-						/>
-					</td>
-					<td valign="top">
-						<b>
-							<img
-								src="https://img.shields.io/github/stars/nikolaxhristov/astro-short-urls?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15"
-							/><br />
-							<a href="https://npmjs.org/astro-short-urls"
-								>astro-short-urls</a
-							>
-							<br />
-							Shorten URLs.
-						</b>
-					</td>
-				</tr>
-				<tr>
-					<!-- astro-convert -->
-					<td valign="middle">
-						<br /><img
-							src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-convert/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15"
-						/><br />
-						<img
-							src="https://img.shields.io/npm/v/astro-convert?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15"
-						/><br />
-						<img
-							src="https://img.shields.io/npm/dw/astro-convert?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15"
-						/>
-					</td>
-					<td valign="top">
-						<b>
-							<img
-								src="https://img.shields.io/github/stars/nikolaxhristov/astro-convert?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15"
-							/><br />
-							<a href="https://npmjs.org/astro-convert"
-								>astro-convert</a
-							>
-							<br />
-							Convert your images, files and JavaScript to a new format.
-						</b>
-					</td>
-					<!-- astro-dead-links -->
-					<td valign="middle">
-						<br /><img
-							src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-dead-links/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15"
-						/><br />
-						<img
-							src="https://img.shields.io/npm/v/astro-dead-links?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15"
-						/><br />
-						<img
-							src="https://img.shields.io/npm/dw/astro-dead-links?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15"
-						/>
-					</td>
-					<td valign="top">
-						<b>
-							<img
-								src="https://img.shields.io/github/stars/nikolaxhristov/astro-dead-links?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15"
-							/><br />
-							<a href="https://npmjs.org/astro-dead-links"
-								>astro-dead-links</a
-							>
-							<br />
-							Find you dead links.
-						</b>
-					</td>
-				</tr>
-				<tr>
-					<!-- astro-networks -->
-					<td valign="middle">
-						<br /><img
-							src="https://img.shields.io/github/workflow/status/nikolaxhristov/astro-networks/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15"
-						/><br />
-						<img
-							src="https://img.shields.io/npm/v/astro-networks?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15"
-						/><br />
-						<img
-							src="https://img.shields.io/npm/dw/astro-networks?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15"
-						/>
-					</td>
-					<td valign="top">
-						<b>
-							<img
-								src="https://img.shields.io/github/stars/nikolaxhristov/astro-networks?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15"
-							/><br />
-							<a href="https://npmjs.org/astro-networks"
-								>astro-networks</a
-							>
-							<br />
-							An inovative router.
-						</b>
-					</td>
-					<!-- astro-starter-template -->
-					<td valign="middle">
-						<br /><img
-							src="https://img.shields.io/github/workflow/status/lightrix/astro-starter-template/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15"
-						/><br />
-						<img
-							src="https://img.shields.io/npm/v/astro-starter-template?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15"
-						/><br />
-						<img
-							src="https://img.shields.io/npm/dw/astro-starter-template?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15"
-						/>
-					</td>
-					<td valign="top">
-						<b>
-							<img
-								src="https://img.shields.io/github/stars/lightrix/astro-starter-template?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15"
-							/><br />
-							<a href="https://npmjs.org/astro-starter-template"
-								>astro-starter-template</a
-							>
-							<br />
-							Opinionated starter template.
-						</b>
-					</td>
-				</tr>
-			</table>
 
-			<h2>
-				<img
-					src="https://raw.githubusercontent.com/jglovier/dotfiles-logo/master/dotfiles-logo-icon.png"
-					width="16"
-				/> Dotfiles
-			</h2>
+				<PackagesRow packages={Array.from(packages.get("astro"))} />
+			</table>
 
 			<table>
 				<tr>
-					<td valign="middle">**[dot] <br /> Dotfiles.**</td>
-					<td valign="middle">**[nvim] <br /> NVIM.**</td>
+					<td colspan="2" valign="middle"
+						>**[dot] <br /> Dotfiles.**</td
+					>
+					<td colspan="2" valign="middle">**[nvim] <br /> NVIM.**</td>
 				</tr>
 				<tr>
 					<td colspan="2">**[powershell] <br /> Powershell.**</td>
@@ -347,76 +124,27 @@ function* chunks<T>(arr: T[], n: number): Generator<T[], void> {
 			</table>
 
 			<table>
-				<tbody>
-					<tr>
-						<td colspan="4">
-							<h1>
-								<picture
-									><source
-										media="(prefers-color-scheme: dark)"
-										srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-Light-32px.png"
-									/><source
-										media="(prefers-color-scheme: light)"
-										srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-32px.png"
-									/><img
-										width="25"
-										alt="GitHub"
-										src="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-32px.png"
-									/>
-								</picture> GitHub
-							</h1>
-						</td>
-					</tr>
-					<tr>
-						<!-- @yesmaintenance/scripts -->
-						<td valign="middle">
-							<br /><a
-								href="https://github.com/yesmaintenance/npm/actions/workflows/node.yml"
-								><img
-									src="https://img.shields.io/github/workflow/status/yesmaintenance/npm/Node?label=Build&logo=node.js&logoColor=white&labelColor=black&logoWidth=15"
+				<tr>
+					<td colspan="4">
+						<h1>
+							<picture
+								><source
+									media="(prefers-color-scheme: dark)"
+									srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-Light-32px.png"
+								/><source
+									media="(prefers-color-scheme: light)"
+									srcset="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-32px.png"
 								/><img
-									src="https://img.shields.io/npm/v/@yesmaintenance/scripts?label=version&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15"
+									width="25"
+									alt="GitHub"
+									src="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/GitHub-Mark-32px.png"
 								/>
-							</a><br />
-							<a href="https://npmjs.org/@yesmaintenance/scripts"
-								><img
-									src="https://img.shields.io/librariesio/release/npm/@yesmaintenance/scripts?label=dependencies&logo=dependabot&color=black&logoColor=white&labelColor=black&logoWidth=15"
-								/>
-							</a><br />
-							<a href="https://npmjs.org/@yesmaintenance/scripts"
-								><img
-									src="https://img.shields.io/npm/dw/@yesmaintenance/scripts?label=downloads&logo=npm&color=black&logoColor=white&labelColor=black&logoWidth=15"
-								/>
-							</a>
-						</td>
-						<td valign="top">
-							<br /><a
-								href="https://github.com/yesmaintenance/npm"
-								><img
-									src="https://img.shields.io/github/stars/yesmaintenance/npm?label=stars&logo=github&color=black&logoColor=white&labelColor=black&logoWidth=15"
-								/>
-							</a><br />
-							<b>
-								<a
-									href="https://npmjs.org/@yesmaintenance/scripts"
-									>Maintenance scripts</a
-								>
-								<br />
-								Star repositories, put Dependabot everywhere and
-								clean repositories.<br />
-							</b>
-						</td>
-					</tr>
-				</tbody>
+							</picture> GitHub
+						</h1>
+					</td>
+				</tr>
+				<PackagesRow packages={Array.from(packages.get("github"))} />
 			</table>
-
-			<h2>
-				<img
-					src="https://raw.githubusercontent.com/nikolaxhristov/nikolaxhristov/main/.github/img/obs-logo.svg"
-					width="24"
-					height="24"
-				/> OBS Project
-			</h2>
 
 			<table>
 				<tr>
@@ -456,9 +184,14 @@ function* chunks<T>(arr: T[], n: number): Generator<T[], void> {
 				><img
 					src="https://github.com/nikolaxhristov/nikolaxhristov/blob/main/devcard.svg?rev=hs2VsNVqDK"
 					width="400"
-					alt="Nikola's Dev Card"
+					alt="Nikola'
+				s
+				Dev
+				Card"
 				/>
 			</a>
-		</div>
-	</div>
+		</div><a href="https://app.daily.dev/nikolahristov"> </a>
+	</div><a href="https://app.daily.dev/nikolahristov"> </a><a
+		href="https://app.daily.dev/nikolahristov">
+	</a>
 </Base>
